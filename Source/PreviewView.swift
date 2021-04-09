@@ -47,7 +47,7 @@ import AVFoundation
         self.backgroundColor = UIColor.black
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -75,7 +75,7 @@ import AVFoundation
 	
 	// MARK: UIView
 	
-	@objc override class var layerClass : AnyClass {
+	@objc override open class var layerClass : AnyClass {
 		return AVCaptureVideoPreviewLayer.self
 	}
 }
