@@ -21,13 +21,13 @@ import AVFoundation
 
 /// A UIViewController Camera View Subclass
 
-open class SwiftyCamViewController: UIViewController {
+@objc open class SwiftyCamViewController: UIViewController {
 
 	// MARK: Enumeration Declaration
 
 	/// Enumeration for Camera Selection
 
-    public enum CameraSelection: String {
+    @objc public enum CameraSelection: String {
 
 		/// Camera on the back of the device
 		case rear = "rear"

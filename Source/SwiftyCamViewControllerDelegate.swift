@@ -132,7 +132,7 @@ public protocol SwiftyCamViewControllerDelegate: class {
     func swiftyCamNotAuthorized(_ swiftyCam: SwiftyCamViewController)
 }
 
-public extension SwiftyCamViewControllerDelegate {
+@objc public extension SwiftyCamViewControllerDelegate {
     
     func swiftyCamSessionDidStopRunning(_ swiftyCam: SwiftyCamViewController) {
         // Optional
