@@ -61,7 +61,7 @@ import AVFoundation
 	/// Enumeration for video quality of the capture session. Corresponds to a AVCaptureSessionPreset
 
 
-	@objc public enum VideoQuality {
+	@objc public enum VideoQuality: Int {
 
 		/// AVCaptureSessionPresetHigh
 		case high
