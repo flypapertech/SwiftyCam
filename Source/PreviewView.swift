@@ -18,7 +18,7 @@ import UIKit
 import AVFoundation
 
 /// A function to specifty the Preview Layer's videoGravity. Indicates how the video is displayed within a player layer’s bounds rect.
-@objc public enum SwiftyCamVideoGravity {
+@objc public enum SwiftyCamVideoGravity: Int {
 
     /**
      - Specifies that the video should be stretched to fill the layer’s bounds

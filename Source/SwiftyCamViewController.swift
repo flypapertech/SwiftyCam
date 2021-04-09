@@ -103,7 +103,7 @@ import AVFoundation
 	- configurationFailed: Unknown error
 	*/
 
-	@objc fileprivate enum SessionSetupResult {
+	@objc fileprivate enum SessionSetupResult: Int {
 		case success
 		case notAuthorized
 		case configurationFailed
