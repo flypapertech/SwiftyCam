@@ -21,7 +21,7 @@ import AVFoundation
 
 /// Delegate for SwiftyCamViewController
 
-public protocol SwiftyCamViewControllerDelegate: class {
+@objc public protocol SwiftyCamViewControllerDelegate: class {
     
     /**
      SwiftyCamViewControllerDelegate function called when when SwiftyCamViewController session did start running.
@@ -132,7 +132,7 @@ public protocol SwiftyCamViewControllerDelegate: class {
     func swiftyCamNotAuthorized(_ swiftyCam: SwiftyCamViewController)
 }
 
-@objc public extension SwiftyCamViewControllerDelegate {
+public extension SwiftyCamViewControllerDelegate {
     
     func swiftyCamSessionDidStopRunning(_ swiftyCam: SwiftyCamViewController) {
         // Optional
