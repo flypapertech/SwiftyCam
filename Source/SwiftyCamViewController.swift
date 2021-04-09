@@ -269,7 +269,7 @@ import AVFoundation
 
 	/// PreviewView for the capture session
 
-	fileprivate var previewLayer                 : PreviewView!
+	public var previewLayer                 : PreviewView!
 
 	/// UIView for front facing flash
 
